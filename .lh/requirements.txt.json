@@ -1,0 +1,18 @@
+{
+    "sourceFile": "requirements.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1752008550823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1752008550823,
+            "name": "Commit-0",
+            "content": "Django\r\ngunicorn\r\nwhitenoise\r\n"
+        }
+    ]
+}

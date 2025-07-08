@@ -1,0 +1,18 @@
+{
+    "sourceFile": "build.sh",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1752008552595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1752008552595,
+            "name": "Commit-0",
+            "content": "#!/bin/bash\npython manage.py migrate\npython manage.py collectstatic --noinput\n"
+        }
+    ]
+}
