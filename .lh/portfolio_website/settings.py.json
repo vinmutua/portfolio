@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1752008551230,
@@ -16,6 +16,10 @@
                 {
                     "date": 1752013625902,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,12 +115,12 @@\n # Static files (CSS, JavaScript, Images)\r\n # https://docs.djangoproject.com/en/5.2/howto/static-files/\r\n \r\n STATIC_URL = '/static/'\r\n+STATIC_ROOT = BASE_DIR / 'staticfiles'\r\n STATICFILES_DIRS = [\r\n-    BASE_DIR / \"static\",\r\n+    BASE_DIR / 'static',\r\n ]\r\n-STATIC_ROOT = BASE_DIR / \"staticfiles\"\r\n STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\r\n \r\n # Default primary key field type\r\n # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\r\n"
+                },
+                {
+                    "date": 1752015620627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n https://docs.djangoproject.com/en/5.2/ref/settings/\r\n \"\"\"\r\n \r\n from pathlib import Path\r\n+import os\r\n \r\n # Build paths inside the project like this: BASE_DIR / 'subdir'.\r\n BASE_DIR = Path(__file__).resolve().parent.parent\r\n \r\n@@ -20,9 +21,8 @@\n # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\r\n \r\n # SECURITY WARNING: keep the secret key used in production secret!\r\n \r\n-import os\r\n SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-mt1e2%&acb#zh@4vfx1*&k$_+t5cguo=%*bf-h&c@zw5tec_uc')\r\n DEBUG = os.environ.get('DJANGO_DEBUG', 'False') == 'True'\r\n ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')\r\n \r\n@@ -115,9 +115,9 @@\n # Static files (CSS, JavaScript, Images)\r\n # https://docs.djangoproject.com/en/5.2/howto/static-files/\r\n \r\n STATIC_URL = '/static/'\r\n-STATIC_ROOT = BASE_DIR / 'staticfiles'\r\n+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\r\n STATICFILES_DIRS = [\r\n     BASE_DIR / 'static',\r\n ]\r\n STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\r\n"
                 }
             ],
             "date": 1752008551230,
