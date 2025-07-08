@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1752008551230,
@@ -12,6 +12,10 @@
                 {
                     "date": 1752008758692,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n \r\n import os\r\n SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-mt1e2%&acb#zh@4vfx1*&k$_+t5cguo=%*bf-h&c@zw5tec_uc')\r\n DEBUG = os.environ.get('DJANGO_DEBUG', 'False') == 'True'\r\n-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',') if os.environ.get('ALLOWED_HOSTS') else []\r\n+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')\r\n \r\n \r\n # Application definition\r\n \r\n"
+                },
+                {
+                    "date": 1752013625902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,12 +115,12 @@\n # Static files (CSS, JavaScript, Images)\r\n # https://docs.djangoproject.com/en/5.2/howto/static-files/\r\n \r\n STATIC_URL = '/static/'\r\n+STATIC_ROOT = BASE_DIR / 'staticfiles'\r\n STATICFILES_DIRS = [\r\n-    BASE_DIR / \"static\",\r\n+    BASE_DIR / 'static',\r\n ]\r\n-STATIC_ROOT = BASE_DIR / \"staticfiles\"\r\n STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\r\n \r\n # Default primary key field type\r\n # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\r\n"
                 }
             ],
             "date": 1752008551230,
