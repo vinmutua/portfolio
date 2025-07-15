@@ -79,39 +79,38 @@
         </div>
     </div>
 
-    <!-- Hero Section -->
-    <section class="min-h-screen flex items-center pt-20">
-        <div class="container mx-auto px-6 py-20">
-            <div class="flex flex-col md:flex-row items-center hero-content">
-                <div class="md:w-1/2 mb-10 md:mb-0 fade-in">
-                    <h1 class="text-4xl md:text-6xl font-bold mb-6 dark:text-white">
-                        <span class="gradient-text">Innovative</span> Software  Engineer
-                    </h1>
-                    <p class="text-xl text-slate-600 mb-8 typewriter dark:text-slate-300">
-
-                        Engineering scalable & reliable  solutions for the digital age
-                    </p>
-                    <div class="flex space-x-4 hero-buttons">
-                        <a href="#contact" class="px-6 py-3 bg-gradient-to-r from-blue-500 to-emerald-500 text-white rounded-full font-medium hover:shadow-lg transition-all transform hover:scale-105">
-                            Contact Me
-                        </a>
-                        <a href="#projects" class="px-6 py-3 border border-blue-500 text-blue-500 rounded-full font-medium hover:bg-blue-50 transition-all transform hover:scale-105 dark:border-blue-400 dark:text-blue-400 dark:hover:bg-slate-800">
-                            View Projects
-                        </a>
-                    </div>
+<!-- Hero Section -->
+<section class="min-h-screen flex items-center pt-16 sm:pt-20">
+    <div class="container mx-auto px-4 sm:px-6 py-16 sm:py-20">
+        <div class="flex flex-col lg:flex-row items-center hero-content">
+            <div class="w-full lg:w-1/2 mb-8 sm:mb-12 lg:mb-0 fade-in text-center lg:text-left">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 dark:text-white leading-tight">
+                    <span class="gradient-text">Innovative</span><br class="sm:hidden"> Software Engineer
+                </h1>
+                <p class="text-sm sm:text-base md:text-lg lg:text-xl text-slate-600 mb-4 sm:mb-6 lg:mb-8  dark:text-slate-300 w-full max-w-none sm:max-w-full lg:max-w-lg mx-auto lg:mx-0 px-1 sm:px-2 lg:px-0 leading-relaxed">
+                    Engineering scalable & reliable solutions for the digital age
+                </p>
+                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 hero-buttons justify-center lg:justify-start">
+                    <a href="#contact" class="w-full sm:w-auto px-6 py-3 bg-gradient-to-r from-blue-500 to-emerald-500 text-white rounded-full font-medium hover:shadow-lg transition-all transform hover:scale-105 text-center">
+                        Contact Me
+                    </a>
+                    <a href="#projects" class="w-full sm:w-auto px-6 py-3 border border-blue-500 text-blue-500 rounded-full font-medium hover:bg-blue-50 transition-all transform hover:scale-105 dark:border-blue-400 dark:text-blue-400 dark:hover:bg-slate-800 text-center">
+                        View Projects
+                    </a>
                 </div>
-                <div class="md:w-1/2 flex justify-center fade-in delay-1">
-                    <div class="character-container" id="character-container">
-                        <!-- 3D Model will be rendered here -->
-                        <canvas id="character-canvas"></canvas>
-                        <div class="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-white px-4 py-2 rounded-full shadow-md dark:bg-slate-800">
-                            <span class="font-bold gradient-text">AVAILABLE FOR WORK</span>
-                        </div>
+            </div>
+            <div class="w-full lg:w-1/2 flex justify-center fade-in delay-1 mt-8 lg:mt-0">
+                <div class="character-container relative w-full max-w-xs sm:max-w-sm lg:max-w-md" id="character-container">
+                    <!-- 3D Model will be rendered here -->
+                    <canvas id="character-canvas" class="w-full h-auto"></canvas>
+                    <div class="absolute -bottom-4 sm:-bottom-6 left-1/2 transform -translate-x-1/2 bg-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-md dark:bg-slate-800">
+                        <span class="font-bold gradient-text text-xs sm:text-sm">AVAILABLE FOR WORK</span>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- About Section -->
     <section id="about" class="py-20 px-8 bg-gray-50 dark:bg-slate-800">
@@ -186,58 +185,326 @@
         </div>
     </section>
 
-   <!-- Experience Section -->
-<section id="experience" class="py-20 bg-slate-50 dark:bg-slate-900">
-    <div class="container mx-auto px-6">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 gradient-text fade-in">Professional Experience</h2>
+<!-- Experience Section -->
+<section id="experience" class="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-slate-800 relative overflow-hidden">
+    <!-- Background decorations -->
+    <div class="absolute top-20 right-10 w-32 h-32 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
+    <div class="absolute bottom-20 left-10 w-40 h-40 bg-emerald-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s;"></div>
+    
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <!-- Header -->
+        <div class="text-center mb-12 sm:mb-16 lg:mb-20">
+            <span class="text-blue-500 font-medium mb-2 block fade-in text-sm sm:text-base">CAREER JOURNEY</span>
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold gradient-text fade-in mb-4 sm:mb-6">
+                Professional Experience
+            </h2>
+            <p class="text-sm sm:text-base lg:text-lg text-slate-600 max-w-xl lg:max-w-2xl mx-auto dark:text-slate-300 fade-in delay-1 px-2 sm:px-0">
+                Building expertise through diverse roles in software development and quality assurance
+            </p>
+        </div>
         
-        <div class="max-w-4xl mx-auto relative pl-16 timeline">
-            <!-- CodeDevs -->
-            <div class="mb-12 relative timeline-item fade-in delay-1">
-                <div class="bg-white p-6 rounded-xl shadow-md card dark:bg-slate-800">
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-xl font-bold dark:text-white">Software Developer - CodeDevs</h3>
-                        <span class="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full dark:bg-blue-900/30 dark:text-blue-300">Dec 2022 - Feb 2024</span>
-                    </div>
-                    <ul class="list-disc pl-5 space-y-2 text-slate-600 dark:text-slate-300">
-                        <li>Provided quality assurance consulting services for web applications and systems</li>
-                        <li>Designed and implemented testing strategies for custom software solutions</li>
-                        <li>Conducted API testing and integration validation for Angular and Node.js applications</li>
-                        <li>Performed database testing and optimization validation for MySQL systems</li>
-                        <li>Executed regression testing for legacy application enhancements</li>
-                    </ul>
-                </div>
+        <div class="max-w-6xl mx-auto relative">
+            <!-- Enhanced Timeline Line -->
+            <div class="hidden lg:block absolute left-8 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-500 via-emerald-500 to-purple-500 timeline-line rounded-full shadow-lg">
+                <!-- Flowing animation overlay -->
+                <div class="absolute inset-0 w-full bg-gradient-to-b from-transparent via-white/30 to-transparent rounded-full animate-pulse"></div>
             </div>
-                            
-            <!-- Mbooni Subcounty Hospital -->
-            <div class="mb-12 relative timeline-item fade-in delay-2">
-                <div class="bg-white p-6 rounded-xl shadow-md card dark:bg-slate-800">
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-xl font-bold dark:text-white">IT Attaché - Mbooni Subcounty Hospital</h3>
-                        <span class="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full dark:bg-blue-900/30 dark:text-blue-300">May 2024 - Aug 2024</span>
+            
+            <div class="space-y-8 sm:space-y-12 lg:space-y-16">
+                
+                <!-- CodeDevs -->
+                <div class="relative  fade-in delay-1 group">
+                    <!-- Enhanced Timeline Dot -->
+                    <div class="hidden lg:block absolute left-4 top-8 w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full border-4 border-white dark:border-slate-900 shadow-xl z-20 group-hover:scale-110 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-blue-500 rounded-full animate-ping opacity-75"></div>
+                        <div class="relative w-full h-full rounded-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
+                            <i class="fas fa-code text-white text-xs"></i>
+                        </div>
                     </div>
-                    <ul class="list-disc pl-5 space-y-2 text-slate-600 dark:text-slate-300">
-                        <li>Provided technical support for hospital systems and networks including LAN/WAN infrastructure</li>
-                        <li>Maintained and troubleshooted the hospital's electronic medical record (EMR) system</li>
-                        <li>Improved system performance by identifying and resolving common IT issues</li>
-                        <li>Managed switch/router setup and resolved connectivity issues across departments</li>
-                    </ul>
+                    
+                    <!-- Connection Line to Card -->
+                    <div class="hidden lg:block absolute left-12 top-12 w-8 h-0.5 bg-gradient-to-r from-blue-500 to-transparent"></div>
+                    
+                    <div class="lg:ml-24">
+                        <div class="bg-white dark:bg-slate-800 p-6 sm:p-8 lg:p-10 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-1 border-l-4 lg:border-l-0 border-blue-500 lg:border-none relative overflow-hidden group-hover:border-blue-400">
+                            <!-- Gradient overlay on hover -->
+                            <div class="absolute inset-0 bg-gradient-to-r from-blue-500/5 to-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl"></div>
+                            
+                            <!-- Header -->
+                            <div class="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-4 mb-6 relative z-10">
+                                <div class="flex-1">
+                                    <div class="flex items-center mb-2">
+                                        <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform">
+                                            <i class="fas fa-laptop-code text-blue-500 dark:text-blue-400 text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold dark:text-white leading-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                                                Software Developer
+                                            </h3>
+                                            <p class="text-blue-600 dark:text-blue-400 font-semibold text-lg">CodeDevs</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center text-slate-500 dark:text-slate-400 mb-2">
+                                        <i class="fas fa-building text-sm mr-2"></i>
+                                        <span class="text-sm font-medium">Software Testing & QA</span>
+                                    </div>
+                                    <div class="flex items-center text-slate-500 dark:text-slate-400">
+                                        <i class="fas fa-map-marker-alt text-sm mr-2"></i>
+                                        <span class="text-sm">Remote / On-site</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col items-start lg:items-end">
+                                    <span class="inline-flex items-center bg-blue-100 text-blue-800 text-sm px-4 py-2 rounded-full dark:bg-blue-900/30 dark:text-blue-300 font-semibold mb-2">
+                                        <i class="fas fa-calendar-alt mr-2 text-sm"></i>
+                                        Dec 2022 - Feb 2024
+                                    </span>
+                                    <span class="text-sm text-slate-500 dark:text-slate-400 font-medium">1 year 3 months</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Responsibilities -->
+                            <div class="mb-6 relative z-10">
+                                <h4 class="text-lg font-semibold text-slate-700 dark:text-slate-300 mb-4">Key Achievements:</h4>
+                                <ul class="space-y-3 text-slate-600 dark:text-slate-300">
+                                    <li class="flex items-start group/item">
+                                        <div class="w-6 h-6 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center mr-3 mt-0.5 group-hover/item:scale-110 transition-transform">
+                                            <i class="fas fa-check text-emerald-500 text-xs"></i>
+                                        </div>
+                                        <span class="text-sm sm:text-base group-hover/item:text-slate-800 dark:group-hover/item:text-slate-200 transition-colors">Provided quality assurance consulting services for web applications and systems</span>
+                                    </li>
+                                    <li class="flex items-start group/item">
+                                        <div class="w-6 h-6 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center mr-3 mt-0.5 group-hover/item:scale-110 transition-transform">
+                                            <i class="fas fa-check text-emerald-500 text-xs"></i>
+                                        </div>
+                                        <span class="text-sm sm:text-base group-hover/item:text-slate-800 dark:group-hover/item:text-slate-200 transition-colors">Designed and implemented testing strategies for custom software solutions</span>
+                                    </li>
+                                    <li class="flex items-start group/item">
+                                        <div class="w-6 h-6 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center mr-3 mt-0.5 group-hover/item:scale-110 transition-transform">
+                                            <i class="fas fa-check text-emerald-500 text-xs"></i>
+                                        </div>
+                                        <span class="text-sm sm:text-base group-hover/item:text-slate-800 dark:group-hover/item:text-slate-200 transition-colors">Conducted API testing and integration validation for Angular and Node.js applications</span>
+                                    </li>
+                                    <li class="flex items-start group/item">
+                                        <div class="w-6 h-6 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center mr-3 mt-0.5 group-hover/item:scale-110 transition-transform">
+                                            <i class="fas fa-check text-emerald-500 text-xs"></i>
+                                        </div>
+                                        <span class="text-sm sm:text-base group-hover/item:text-slate-800 dark:group-hover/item:text-slate-200 transition-colors">Performed database testing and optimization validation for MySQL systems</span>
+                                    </li>
+                                    <li class="flex items-start group/item">
+                                        <div class="w-6 h-6 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center mr-3 mt-0.5 group-hover/item:scale-110 transition-transform">
+                                            <i class="fas fa-check text-emerald-500 text-xs"></i>
+                                        </div>
+                                        <span class="text-sm sm:text-base group-hover/item:text-slate-800 dark:group-hover/item:text-slate-200 transition-colors">Executed regression testing for legacy application enhancements</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Technologies -->
+                            <div class="relative z-10">
+                                <h4 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">Technologies Used:</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-blue-100 text-blue-800 rounded-full dark:bg-blue-900/30 dark:text-blue-300 hover:scale-105 transition-transform cursor-default">Angular</span>
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-green-100 text-green-800 rounded-full dark:bg-green-900/30 dark:text-green-300 hover:scale-105 transition-transform cursor-default">Node.js</span>
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-orange-100 text-orange-800 rounded-full dark:bg-orange-900/30 dark:text-orange-300 hover:scale-105 transition-transform cursor-default">MySQL</span>
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-purple-100 text-purple-800 rounded-full dark:bg-purple-900/30 dark:text-purple-300 hover:scale-105 transition-transform cursor-default">API Testing</span>
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-cyan-100 text-cyan-800 rounded-full dark:bg-cyan-900/30 dark:text-cyan-300 hover:scale-105 transition-transform cursor-default">QA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-                            
-            <!-- Data Visualization Specialist -->
-            <div class="mb-12 relative timeline-item fade-in delay-3">
-                <div class="bg-white p-6 rounded-xl shadow-md card dark:bg-slate-800">
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-xl font-bold dark:text-white">Data Visualization Specialist</h3>
-                        <span class="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full dark:bg-blue-900/30 dark:text-blue-300">Remote</span>
+                
+                <!-- Mbooni Subcounty Hospital -->
+                <div class="relative  fade-in delay-2 group">
+                    <!-- Enhanced Timeline Dot -->
+                    <div class="hidden lg:block absolute left-4 top-8 w-8 h-8 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-full border-4 border-white dark:border-slate-900 shadow-xl z-20 group-hover:scale-110 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-emerald-500 rounded-full animate-ping opacity-75"></div>
+                        <div class="relative w-full h-full rounded-full bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center">
+                            <i class="fas fa-hospital text-white text-xs"></i>
+                        </div>
                     </div>
-                    <ul class="list-disc pl-5 space-y-2 text-slate-600 dark:text-slate-300">
-                        <li>Created interactive dashboards to help clients understand trends and make data-driven decisions</li>
-                        <li>Collected, cleaned, and analyzed datasets from various sources to extract key insights</li>
-                        <li>Designed visual reports using charts, graphs, and maps with Power BI and Tableau</li>
-                        <li>Developed Python scripts using Pandas and Matplotlib for data analysis and visualization</li>
-                    </ul>
+                    
+                    <!-- Connection Line to Card -->
+                    <div class="hidden lg:block absolute left-12 top-12 w-8 h-0.5 bg-gradient-to-r from-emerald-500 to-transparent"></div>
+                    
+                    <div class="lg:ml-24">
+                        <div class="bg-white dark:bg-slate-800 p-6 sm:p-8 lg:p-10 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-1 border-l-4 lg:border-l-0 border-emerald-500 lg:border-none relative overflow-hidden group-hover:border-emerald-400">
+                            <!-- Gradient overlay on hover -->
+                            <div class="absolute inset-0 bg-gradient-to-r from-emerald-500/5 to-blue-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl"></div>
+                            
+                            <!-- Header -->
+                            <div class="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-4 mb-6 relative z-10">
+                                <div class="flex-1">
+                                    <div class="flex items-center mb-2">
+                                        <div class="w-12 h-12 bg-emerald-100 dark:bg-emerald-900/30 rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform">
+                                            <i class="fas fa-user-md text-emerald-500 dark:text-emerald-400 text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold dark:text-white leading-tight group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+                                                IT Attaché
+                                            </h3>
+                                            <p class="text-emerald-600 dark:text-emerald-400 font-semibold text-lg">Mbooni Subcounty Hospital</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center text-slate-500 dark:text-slate-400 mb-2">
+                                        <i class="fas fa-stethoscope text-sm mr-2"></i>
+                                        <span class="text-sm font-medium">Healthcare IT Support</span>
+                                    </div>
+                                    <div class="flex items-center text-slate-500 dark:text-slate-400">
+                                        <i class="fas fa-map-marker-alt text-sm mr-2"></i>
+                                        <span class="text-sm">Makueni, Kenya</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col items-start lg:items-end">
+                                    <span class="inline-flex items-center bg-emerald-100 text-emerald-800 text-sm px-4 py-2 rounded-full dark:bg-emerald-900/30 dark:text-emerald-300 font-semibold mb-2">
+                                        <i class="fas fa-calendar-alt mr-2 text-sm"></i>
+                                        May 2024 - Aug 2024
+                                    </span>
+                                    <span class="text-sm text-slate-500 dark:text-slate-400 font-medium">4 months</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Responsibilities -->
+                            <div class="mb-6 relative z-10">
+                                <h4 class="text-lg font-semibold text-slate-700 dark:text-slate-300 mb-4">Key Achievements:</h4>
+                                <ul class="space-y-3 text-slate-600 dark:text-slate-300">
+                                    <li class="flex items-start group/item">
+                                        <div class="w-6 h-6 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mr-3 mt-0.5 group-hover/item:scale-110 transition-transform">
+                                            <i class="fas fa-check text-blue-500 text-xs"></i>
+                                        </div>
+                                        <span class="text-sm sm:text-base group-hover/item:text-slate-800 dark:group-hover/item:text-slate-200 transition-colors">Provided technical support for hospital systems and networks including LAN/WAN infrastructure</span>
+                                    </li>
+                                    <li class="flex items-start group/item">
+                                        <div class="w-6 h-6 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mr-3 mt-0.5 group-hover/item:scale-110 transition-transform">
+                                            <i class="fas fa-check text-blue-500 text-xs"></i>
+                                        </div>
+                                        <span class="text-sm sm:text-base group-hover/item:text-slate-800 dark:group-hover/item:text-slate-200 transition-colors">Maintained and troubleshooted the hospital's electronic medical record (EMR) system</span>
+                                    </li>
+                                    <li class="flex items-start group/item">
+                                        <div class="w-6 h-6 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mr-3 mt-0.5 group-hover/item:scale-110 transition-transform">
+                                            <i class="fas fa-check text-blue-500 text-xs"></i>
+                                        </div>
+                                        <span class="text-sm sm:text-base group-hover/item:text-slate-800 dark:group-hover/item:text-slate-200 transition-colors">Improved system performance by identifying and resolving common IT issues</span>
+                                    </li>
+                                    <li class="flex items-start group/item">
+                                        <div class="w-6 h-6 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mr-3 mt-0.5 group-hover/item:scale-110 transition-transform">
+                                            <i class="fas fa-check text-blue-500 text-xs"></i>
+                                        </div>
+                                        <span class="text-sm sm:text-base group-hover/item:text-slate-800 dark:group-hover/item:text-slate-200 transition-colors">Managed switch/router setup and resolved connectivity issues across departments</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Technologies -->
+                            <div class="relative z-10">
+                                <h4 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">Technologies Used:</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-emerald-100 text-emerald-800 rounded-full dark:bg-emerald-900/30 dark:text-emerald-300 hover:scale-105 transition-transform cursor-default">EMR Systems</span>
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-blue-100 text-blue-800 rounded-full dark:bg-blue-900/30 dark:text-blue-300 hover:scale-105 transition-transform cursor-default">Network Admin</span>
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-purple-100 text-purple-800 rounded-full dark:bg-purple-900/30 dark:text-purple-300 hover:scale-105 transition-transform cursor-default">LAN/WAN</span>
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-orange-100 text-orange-800 rounded-full dark:bg-orange-900/30 dark:text-orange-300 hover:scale-105 transition-transform cursor-default">Troubleshooting</span>
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-cyan-100 text-cyan-800 rounded-full dark:bg-cyan-900/30 dark:text-cyan-300 hover:scale-105 transition-transform cursor-default">IT Support</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Data Visualization Specialist -->
+                <div class="relative  fade-in delay-3 group">
+                    <!-- Enhanced Timeline Dot -->
+                    <div class="hidden lg:block absolute left-4 top-8 w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full border-4 border-white dark:border-slate-900 shadow-xl z-20 group-hover:scale-110 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-purple-500 rounded-full animate-ping opacity-75"></div>
+                        <div class="relative w-full h-full rounded-full bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center">
+                            <i class="fas fa-chart-line text-white text-xs"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- Connection Line to Card -->
+                    <div class="hidden lg:block absolute left-12 top-12 w-8 h-0.5 bg-gradient-to-r from-purple-500 to-transparent"></div>
+                    
+                    <div class="lg:ml-24">
+                        <div class="bg-white dark:bg-slate-800 p-6 sm:p-8 lg:p-10 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-1 border-l-4 lg:border-l-0 border-purple-500 lg:border-none relative overflow-hidden group-hover:border-purple-400">
+                            <!-- Gradient overlay on hover -->
+                            <div class="absolute inset-0 bg-gradient-to-r from-purple-500/5 to-pink-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl"></div>
+                            
+                            <!-- Header -->
+                            <div class="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-4 mb-6 relative z-10">
+                                <div class="flex-1">
+                                    <div class="flex items-center mb-2">
+                                        <div class="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform">
+                                            <i class="fas fa-chart-bar text-purple-500 dark:text-purple-400 text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold dark:text-white leading-tight group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
+                                                Data Visualization Specialist
+                                            </h3>
+                                            <p class="text-purple-600 dark:text-purple-400 font-semibold text-lg">Freelance</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center text-slate-500 dark:text-slate-400 mb-2">
+                                        <i class="fas fa-chart-pie text-sm mr-2"></i>
+                                        <span class="text-sm font-medium">Data Analytics & Visualization</span>
+                                    </div>
+                                    <div class="flex items-center text-slate-500 dark:text-slate-400">
+                                        <i class="fas fa-globe text-sm mr-2"></i>
+                                        <span class="text-sm">Remote Worldwide</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col items-start lg:items-end">
+                                    <span class="inline-flex items-center bg-purple-100 text-purple-800 text-sm px-4 py-2 rounded-full dark:bg-purple-900/30 dark:text-purple-300 font-semibold mb-2">
+                                        <i class="fas fa-infinity mr-2 text-sm"></i>
+                                        Ongoing
+                                    </span>
+                                    <span class="text-sm text-slate-500 dark:text-slate-400 font-medium">Remote</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Responsibilities -->
+                            <div class="mb-6 relative z-10">
+                                <h4 class="text-lg font-semibold text-slate-700 dark:text-slate-300 mb-4">Key Achievements:</h4>
+                                <ul class="space-y-3 text-slate-600 dark:text-slate-300">
+                                    <li class="flex items-start group/item">
+                                        <div class="w-6 h-6 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center mr-3 mt-0.5 group-hover/item:scale-110 transition-transform">
+                                            <i class="fas fa-check text-emerald-500 text-xs"></i>
+                                        </div>
+                                        <span class="text-sm sm:text-base group-hover/item:text-slate-800 dark:group-hover/item:text-slate-200 transition-colors">Created interactive dashboards to help clients understand trends and make data-driven decisions</span>
+                                    </li>
+                                    <li class="flex items-start group/item">
+                                        <div class="w-6 h-6 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center mr-3 mt-0.5 group-hover/item:scale-110 transition-transform">
+                                            <i class="fas fa-check text-emerald-500 text-xs"></i>
+                                        </div>
+                                        <span class="text-sm sm:text-base group-hover/item:text-slate-800 dark:group-hover/item:text-slate-200 transition-colors">Collected, cleaned, and analyzed datasets from various sources to extract key insights</span>
+                                    </li>
+                                    <li class="flex items-start group/item">
+                                        <div class="w-6 h-6 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center mr-3 mt-0.5 group-hover/item:scale-110 transition-transform">
+                                            <i class="fas fa-check text-emerald-500 text-xs"></i>
+                                        </div>
+                                        <span class="text-sm sm:text-base group-hover/item:text-slate-800 dark:group-hover/item:text-slate-200 transition-colors">Designed visual reports using charts, graphs, and maps with Power BI and Tableau</span>
+                                    </li>
+                                    <li class="flex items-start group/item">
+                                        <div class="w-6 h-6 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center mr-3 mt-0.5 group-hover/item:scale-110 transition-transform">
+                                            <i class="fas fa-check text-emerald-500 text-xs"></i>
+                                        </div>
+                                        <span class="text-sm sm:text-base group-hover/item:text-slate-800 dark:group-hover/item:text-slate-200 transition-colors">Developed Python scripts using Pandas and Matplotlib for data analysis and visualization</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Technologies -->
+                            <div class="relative z-10">
+                                <h4 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">Technologies Used:</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-blue-100 text-blue-800 rounded-full dark:bg-blue-900/30 dark:text-blue-300 hover:scale-105 transition-transform cursor-default">Power BI</span>
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-orange-100 text-orange-800 rounded-full dark:bg-orange-900/30 dark:text-orange-300 hover:scale-105 transition-transform cursor-default">Tableau</span>
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-green-100 text-green-800 rounded-full dark:bg-green-900/30 dark:text-green-300 hover:scale-105 transition-transform cursor-default">Python</span>
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-purple-100 text-purple-800 rounded-full dark:bg-purple-900/30 dark:text-purple-300 hover:scale-105 transition-transform cursor-default">Pandas</span>
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-pink-100 text-pink-800 rounded-full dark:bg-pink-900/30 dark:text-pink-300 hover:scale-105 transition-transform cursor-default">Matplotlib</span>
+                                    <span class="px-3 py-1.5 text-xs font-medium bg-cyan-100 text-cyan-800 rounded-full dark:bg-cyan-900/30 dark:text-cyan-300 hover:scale-105 transition-transform cursor-default">Data Analysis</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -427,111 +694,335 @@
     </div>
 </section>
 
-    <!-- Projects Section -->
-<section id="projects" class="py-20 bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-slate-800">
-    <div class="container mx-auto px-6">
-        <div class="text-center mb-16">
-            <span class="text-blue-500 font-medium mb-2 block fade-in">PORTFOLIO</span>
-            <h2 class="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-emerald-500 dark:from-blue-400 dark:to-emerald-400 fade-in">Featured Projects</h2>
-            <p class="max-w-2xl mx-auto mt-4 text-slate-600 dark:text-slate-300 fade-in delay-1">Innovative solutions built with cutting-edge technologies</p>
+<!-- Projects Section -->
+<section id="projects" class="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-slate-800">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Header -->
+        <div class="text-center mb-12 sm:mb-16 lg:mb-20">
+            <span class="text-blue-500 font-medium mb-2 block fade-in text-sm sm:text-base">PORTFOLIO</span>
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold gradient-text fade-in mb-4 sm:mb-6">
+                Featured Projects
+            </h2>
+            <p class="text-sm sm:text-base lg:text-lg text-slate-600 max-w-xl lg:max-w-2xl mx-auto dark:text-slate-300 fade-in delay-1 px-2 sm:px-0">
+                Innovative solutions built with cutting-edge technologies
+            </p>
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 project-grid">
+        <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8 lg:gap-10 max-w-7xl mx-auto">
+            
             <!-- Lecture Alert System -->
-            <div class="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 card fade-in delay-1 bg-white dark:bg-slate-800">
-                <div class="absolute inset-0 bg-gradient-to-br from-blue-500 to-emerald-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
-                <div class="h-48 bg-gradient-to-r from-blue-400 to-emerald-400 flex items-center justify-center relative overflow-hidden">
-                    <i class="fas fa-bell text-white text-6xl z-10"></i>
-                    <div class="absolute inset-0 bg-black/10"></div>
+            <div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-800 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 fade-in delay-1">
+                <!-- Gradient Overlay -->
+                <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-emerald-500/20 to-cyan-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
+                
+                <!-- Header with Icon -->
+                <div class="relative h-32 sm:h-40 bg-gradient-to-br from-blue-600 via-blue-500 to-emerald-500 flex items-center justify-center overflow-hidden">
+                    <!-- Background Pattern -->
+                    <div class="absolute inset-0 opacity-20">
+                        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="20" height="20" xmlns="http://www.w3.org/2000/svg"%3E%3Cdefs%3E%3Cpattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"%3E%3Cpath d="M 20 0 L 0 0 0 20" fill="none" stroke="white" stroke-width="0.5"/%3E%3C/pattern%3E%3C/defs%3E%3Crect width="100%25" height="100%25" fill="url(%23grid)" /%3E%3C/svg%3E')]"></div>
+                    </div>
+                    
+                    <!-- Main Icon -->
+                    <div class="relative z-10 transform group-hover:scale-110 transition-transform duration-500">
+                        <div class="w-16 h-16 sm:w-20 sm:h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center shadow-2xl">
+                            <i class="fas fa-bell text-2xl sm:text-3xl text-white"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- Floating Elements -->
+                    <div class="absolute top-4 right-4 w-3 h-3 bg-white/30 rounded-full animate-ping"></div>
+                    <div class="absolute bottom-4 left-4 w-2 h-2 bg-white/40 rounded-full animate-pulse"></div>
                 </div>
-                <div class="p-6 relative">
-                    <div class="flex justify-between items-start mb-3">
-                        <h3 class="text-xl font-bold dark:text-white">Lecture Alert System</h3>
-                        <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full dark:bg-blue-900/30 dark:text-blue-300">2024</span>
+                
+                <!-- Content -->
+                <div class="relative p-6 sm:p-8 z-20">
+                    <!-- Project Header -->
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl sm:text-2xl font-bold dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                                Lecture Alert System
+                            </h3>
+                            <div class="flex items-center text-sm text-slate-500 dark:text-slate-400">
+                                <i class="fas fa-calendar-alt mr-2"></i>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                            <span class="text-xs font-medium text-green-600 dark:text-green-400">Active</span>
+                        </div>
                     </div>
-                    <p class="text-slate-600 mb-4 dark:text-slate-300">
-                        Django-based notification system with automated email alerts and admin tools.
+                    
+                    <!-- Description -->
+                    <p class="text-slate-600 dark:text-slate-300 mb-6 leading-relaxed text-sm sm:text-base">
+                        Django-based notification system with automated email alerts, real-time updates, and comprehensive admin tools for educational institutions.
                     </p>
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded-full dark:bg-blue-900/30 dark:text-blue-300">Django</span>
-                        <span class="text-xs bg-emerald-100 text-emerald-800 px-2 py-1 rounded-full dark:bg-emerald-900/30 dark:text-emerald-300">Celery</span>
-                        <span class="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded-full dark:bg-purple-900/30 dark:text-purple-300">Redis</span>
+                    
+                    <!-- Features -->
+                    <div class="mb-6">
+                        <h4 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">Key Features:</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-center text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+                                <i class="fas fa-check-circle text-emerald-500 mr-2 text-xs"></i>
+                                Automated Email Notifications
+                            </li>
+                            <li class="flex items-center text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+                                <i class="fas fa-check-circle text-emerald-500 mr-2 text-xs"></i>
+                                Real-time Alert System
+                            </li>
+                            <li class="flex items-center text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+                                <i class="fas fa-check-circle text-emerald-500 mr-2 text-xs"></i>
+                                Admin Dashboard
+                            </li>
+                        </ul>
                     </div>
+                    
+                    <!-- Technologies -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full dark:bg-blue-900/30 dark:text-blue-300">Django</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-emerald-100 text-emerald-800 rounded-full dark:bg-emerald-900/30 dark:text-emerald-300">Celery</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full dark:bg-purple-900/30 dark:text-purple-300">Redis</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-orange-100 text-orange-800 rounded-full dark:bg-orange-900/30 dark:text-orange-300">PostgreSQL</span>
+                    </div>
+                    
+                    <!-- Action Buttons -->
                     <div class="flex gap-3">
                         <a href="https://github.com/vinmutua/Lecture-Alert" 
-                           class="text-sm flex items-center text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors"
+                           class="flex-1 flex items-center justify-center px-4 py-3 bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-300 rounded-lg font-medium transition-all text-sm group-hover:scale-105"
                            target="_blank" rel="noopener">
-                            <i class="fab fa-github mr-1"></i> Code
+                            <i class="fab fa-github mr-2"></i>
+                            View Code
                         </a>
-                        <button class="text-sm flex items-center text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300 transition-colors">
-                            <i class="fas fa-eye mr-1"></i> Demo
+                        <button class="px-4 py-3 bg-gradient-to-r from-blue-500 to-emerald-500 text-white rounded-lg font-medium hover:shadow-lg transition-all text-sm group-hover:scale-105">
+                            <i class="fas fa-external-link-alt mr-2"></i>
+                            Demo
                         </button>
                     </div>
                 </div>
+                
+                <!-- Hover Glow Effect -->
+                <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500/0 via-emerald-500/0 to-cyan-500/0 group-hover:from-blue-500/10 group-hover:via-emerald-500/10 group-hover:to-cyan-500/10 transition-all duration-500 pointer-events-none"></div>
             </div>
             
             <!-- Kazibot Chat System -->
-            <div class="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 card fade-in delay-2 bg-white dark:bg-slate-800">
-                <div class="absolute inset-0 bg-gradient-to-br from-purple-500 to-blue-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
-                <div class="h-48 bg-gradient-to-r from-purple-400 to-blue-400 flex items-center justify-center relative overflow-hidden">
-                    <i class="fas fa-robot text-white text-6xl z-10"></i>
-                    <div class="absolute inset-0 bg-black/10"></div>
+            <div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-800 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 fade-in delay-2">
+                <!-- Gradient Overlay -->
+                <div class="absolute inset-0 bg-gradient-to-br from-purple-500/20 via-pink-500/20 to-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
+                
+                <!-- Header with Icon -->
+                <div class="relative h-32 sm:h-40 bg-gradient-to-br from-purple-600 via-pink-500 to-blue-500 flex items-center justify-center overflow-hidden">
+                    <!-- Background Pattern -->
+                    <div class="absolute inset-0 opacity-20">
+                        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="30" height="30" xmlns="http://www.w3.org/2000/svg"%3E%3Cdefs%3E%3Cpattern id="circles" width="30" height="30" patternUnits="userSpaceOnUse"%3E%3Ccircle cx="15" cy="15" r="2" fill="white" opacity="0.3"/%3E%3C/pattern%3E%3C/defs%3E%3Crect width="100%25" height="100%25" fill="url(%23circles)" /%3E%3C/svg%3E')]"></div>
+                    </div>
+                    
+                    <!-- Main Icon -->
+                    <div class="relative z-10 transform group-hover:scale-110 transition-transform duration-500">
+                        <div class="w-16 h-16 sm:w-20 sm:h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center shadow-2xl">
+                            <i class="fas fa-robot text-2xl sm:text-3xl text-white"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- Chat Bubbles Animation -->
+                    <div class="absolute top-6 right-6 space-y-2">
+                        <div class="w-3 h-2 bg-white/40 rounded-full animate-pulse"></div>
+                        <div class="w-4 h-2 bg-white/30 rounded-full animate-pulse" style="animation-delay: 0.5s;"></div>
+                    </div>
                 </div>
-                <div class="p-6 relative">
-                    <div class="flex justify-between items-start mb-3">
-                        <h3 class="text-xl font-bold dark:text-white">Kazibot Chat System</h3>
-                        <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full dark:bg-blue-900/30 dark:text-blue-300">2023</span>
+                
+                <!-- Content -->
+                <div class="relative p-6 sm:p-8 z-20">
+                    <!-- Project Header -->
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl sm:text-2xl font-bold dark:text-white mb-2 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
+                                Kazibot Chat System
+                            </h3>
+                            <div class="flex items-center text-sm text-slate-500 dark:text-slate-400">
+                                <i class="fas fa-calendar-alt mr-2"></i>
+                                <span>2023</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="w-3 h-3 bg-yellow-500 rounded-full animate-pulse"></div>
+                            <span class="text-xs font-medium text-yellow-600 dark:text-yellow-400">Featured</span>
+                        </div>
                     </div>
-                    <p class="text-slate-600 mb-4 dark:text-slate-300">
-                        Multi-platform AI chatbot with real-time messaging and platform integrations.
+                    
+                    <!-- Description -->
+                    <p class="text-slate-600 dark:text-slate-300 mb-6 leading-relaxed text-sm sm:text-base">
+                        Multi-platform AI chatbot with real-time messaging, natural language processing, and seamless platform integrations.
                     </p>
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded-full dark:bg-blue-900/30 dark:text-blue-300">Angular</span>
-                        <span class="text-xs bg-emerald-100 text-emerald-800 px-2 py-1 rounded-full dark:bg-emerald-900/30 dark:text-emerald-300">Node.js</span>
-                        <span class="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded-full dark:bg-purple-900/30 dark:text-purple-300">Socket.IO</span>
+                    
+                    <!-- Features -->
+                    <div class="mb-6">
+                        <h4 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">Key Features:</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-center text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+                                <i class="fas fa-check-circle text-emerald-500 mr-2 text-xs"></i>
+                                Real-time Chat Interface
+                            </li>
+                            <li class="flex items-center text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+                                <i class="fas fa-check-circle text-emerald-500 mr-2 text-xs"></i>
+                                AI-Powered Responses
+                            </li>
+                            <li class="flex items-center text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+                                <i class="fas fa-check-circle text-emerald-500 mr-2 text-xs"></i>
+                                Multi-Platform Support
+                            </li>
+                        </ul>
                     </div>
+                    
+                    <!-- Technologies -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 text-xs font-medium bg-red-100 text-red-800 rounded-full dark:bg-red-900/30 dark:text-red-300">Angular</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-green-100 text-green-800 rounded-full dark:bg-green-900/30 dark:text-green-300">Node.js</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full dark:bg-blue-900/30 dark:text-blue-300">Socket.IO</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full dark:bg-purple-900/30 dark:text-purple-300">MongoDB</span>
+                    </div>
+                    
+                    <!-- Action Buttons -->
                     <div class="flex gap-3">
                         <a href="https://github.com/vinmutua/Proj-Backend-chatbot" 
-                           class="text-sm flex items-center text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors"
+                           class="flex-1 flex items-center justify-center px-3 py-3 bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-300 rounded-lg font-medium transition-all text-sm group-hover:scale-105"
                            target="_blank" rel="noopener">
-                            <i class="fab fa-github mr-1"></i> Backend
+                            <i class="fab fa-github mr-1"></i>
+                            Backend
                         </a>
                         <a href="https://github.com/vinmutua/Proj-Frontend-chatbot" 
-                           class="text-sm flex items-center text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition-colors"
+                           class="flex-1 flex items-center justify-center px-3 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg font-medium hover:shadow-lg transition-all text-sm group-hover:scale-105"
                            target="_blank" rel="noopener">
-                            <i class="fab fa-github mr-1"></i> Frontend
+                            <i class="fab fa-github mr-1"></i>
+                            Frontend
                         </a>
                     </div>
                 </div>
+                
+                <!-- Hover Glow Effect -->
+                <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-purple-500/0 via-pink-500/0 to-blue-500/0 group-hover:from-purple-500/10 group-hover:via-pink-500/10 group-hover:to-blue-500/10 transition-all duration-500 pointer-events-none"></div>
             </div>
             
             <!-- Data Visualization -->
-            <div class="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 card fade-in delay-3 bg-white dark:bg-slate-800">
-                <div class="absolute inset-0 bg-gradient-to-br from-orange-500 to-pink-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
-                <div class="h-48 bg-gradient-to-r from-orange-400 to-pink-400 flex items-center justify-center relative overflow-hidden">
-                    <i class="fas fa-chart-bar text-white text-6xl z-10"></i>
-                    <div class="absolute inset-0 bg-black/10"></div>
-                </div>
-                <div class="p-6 relative">
-                    <div class="flex justify-between items-start mb-3">
-                        <h3 class="text-xl font-bold dark:text-white">Data Visualization</h3>
-                        <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full dark:bg-blue-900/30 dark:text-blue-300">2023</span>
+            <div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-800 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 fade-in delay-3">
+                <!-- Gradient Overlay -->
+                <div class="absolute inset-0 bg-gradient-to-br from-orange-500/20 via-pink-500/20 to-red-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
+                
+                <!-- Header with Icon -->
+                <div class="relative h-32 sm:h-40 bg-gradient-to-br from-orange-600 via-pink-500 to-red-500 flex items-center justify-center overflow-hidden">
+                    <!-- Background Pattern -->
+                    <div class="absolute inset-0 opacity-20">
+                        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="40" height="40" xmlns="http://www.w3.org/2000/svg"%3E%3Cdefs%3E%3Cpattern id="triangles" width="40" height="40" patternUnits="userSpaceOnUse"%3E%3Cpolygon points="20,5 35,35 5,35" fill="white" opacity="0.2"/%3E%3C/pattern%3E%3C/defs%3E%3Crect width="100%25" height="100%25" fill="url(%23triangles)" /%3E%3C/svg%3E')]"></div>
                     </div>
-                    <p class="text-slate-600 mb-4 dark:text-slate-300">
-                        Interactive dashboards and visual reports for data-driven decision making.
+                    
+                    <!-- Main Icon -->
+                    <div class="relative z-10 transform group-hover:scale-110 transition-transform duration-500">
+                        <div class="w-16 h-16 sm:w-20 sm:h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center shadow-2xl">
+                            <i class="fas fa-chart-bar text-2xl sm:text-3xl text-white"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- Data Points Animation -->
+                    <div class="absolute top-4 left-4 space-y-1">
+                        <div class="flex space-x-1">
+                            <div class="w-1 h-4 bg-white/50 rounded animate-pulse"></div>
+                            <div class="w-1 h-6 bg-white/40 rounded animate-pulse" style="animation-delay: 0.2s;"></div>
+                            <div class="w-1 h-3 bg-white/60 rounded animate-pulse" style="animation-delay: 0.4s;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Content -->
+                <div class="relative p-6 sm:p-8 z-20">
+                    <!-- Project Header -->
+                    <div class="flex items-start justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl sm:text-2xl font-bold dark:text-white mb-2 group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">
+                                Data Visualization Suite
+                            </h3>
+                            <div class="flex items-center text-sm text-slate-500 dark:text-slate-400">
+                                <i class="fas fa-calendar-alt mr-2"></i>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="w-3 h-3 bg-orange-500 rounded-full animate-pulse"></div>
+                            <span class="text-xs font-medium text-orange-600 dark:text-orange-400">Analytics</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Description -->
+                    <p class="text-slate-600 dark:text-slate-300 mb-6 leading-relaxed text-sm sm:text-base">
+                        Interactive dashboards and visual reports for data-driven decision making with advanced analytics capabilities.
                     </p>
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded-full dark:bg-blue-900/30 dark:text-blue-300">Power BI</span>
-                        <span class="text-xs bg-emerald-100 text-emerald-800 px-2 py-1 rounded-full dark:bg-emerald-900/30 dark:text-emerald-300">Tableau</span>
-                        <span class="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded-full dark:bg-purple-900/30 dark:text-purple-300">Pandas</span>
+                    
+                    <!-- Features -->
+                    <div class="mb-6">
+                        <h4 class="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">Key Features:</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-center text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+                                <i class="fas fa-check-circle text-emerald-500 mr-2 text-xs"></i>
+                                Interactive Dashboards
+                            </li>
+                            <li class="flex items-center text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+                                <i class="fas fa-check-circle text-emerald-500 mr-2 text-xs"></i>
+                                Real-time Data Processing
+                            </li>
+                            <li class="flex items-center text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+                                <i class="fas fa-check-circle text-emerald-500 mr-2 text-xs"></i>
+                                Custom Report Generation
+                            </li>
+                        </ul>
                     </div>
+                    
+                    <!-- Technologies -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full dark:bg-blue-900/30 dark:text-blue-300">Power BI</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-orange-100 text-orange-800 rounded-full dark:bg-orange-900/30 dark:text-orange-300">Tableau</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-green-100 text-green-800 rounded-full dark:bg-green-900/30 dark:text-green-300">Python</span>
+                        <span class="px-3 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full dark:bg-purple-900/30 dark:text-purple-300">Pandas</span>
+                    </div>
+                    
+                    <!-- Action Buttons -->
                     <div class="flex gap-3">
-                        <span class="text-sm flex items-center text-slate-500 dark:text-slate-400">
-                            <i class="fas fa-lock mr-1"></i> Proprietary
-                        </span>
+                        <button class="flex-1 flex items-center justify-center px-4 py-3 bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-300 rounded-lg font-medium transition-all text-sm group-hover:scale-105 cursor-not-allowed opacity-75">
+                            <i class="fas fa-lock mr-2"></i>
+                            Proprietary
+                        </button>
+                        <button class="px-4 py-3 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-lg font-medium hover:shadow-lg transition-all text-sm group-hover:scale-105">
+                            <i class="fas fa-eye mr-2"></i>
+                            Preview
+                        </button>
                     </div>
                 </div>
+                
+                <!-- Hover Glow Effect -->
+                <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-orange-500/0 via-pink-500/0 to-red-500/0 group-hover:from-orange-500/10 group-hover:via-pink-500/10 group-hover:to-red-500/10 transition-all duration-500 pointer-events-none"></div>
             </div>
+        </div>
+        
+        <!-- View More Projects Button -->
+        <div class="text-center mt-12 sm:mt-16 fade-in delay-4">
+            <a href="#contact" class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-500 via-purple-500 to-emerald-500 text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-110 group relative overflow-hidden animate-pulse hover:animate-none">
+        <!-- Animated background gradient -->
+        <div class="absolute inset-0 bg-gradient-to-r from-emerald-500 via-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-full"></div>
+    
+      <!-- Shimmer effect -->
+       <div class="absolute inset-0 -top-2 -bottom-2 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out"></div>
+    
+    <!-- Content -->
+     <div class="relative flex items-center">
+        <i class="fas fa-envelope mr-3 text-lg group-hover:animate-bounce"></i>
+        <span class="tracking-wide">Request More</span>
+        <div class="ml-3 flex items-center">
+            <i class="fas fa-arrow-right group-hover:translate-x-2 transition-transform duration-300"></i>
+            <div class="w-2 h-2 bg-white rounded-full ml-2 opacity-0 group-hover:opacity-100 group-hover:animate-ping transition-opacity duration-300"></div>
+        </div>
+    </div>
+    
+    <!-- Floating particles on hover -->
+    <div class="absolute -top-1 -right-1 w-3 h-3 bg-yellow-300 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-ping transition-opacity duration-300" style="animation-delay: 0.2s;"></div>
+    <div class="absolute -bottom-1 -left-1 w-2 h-2 bg-cyan-300 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-ping transition-opacity duration-300" style="animation-delay: 0.4s;"></div>
+</a>
         </div>
     </div>
 </section>
@@ -707,7 +1198,7 @@
 </section>
 
 
-
+<!-- terminal -->
     <section id="terminal" class="terminal-section py-5 relative">
         <div class="scanline"></div>
         <div class="container mx-auto p-4 lg:p-8">
