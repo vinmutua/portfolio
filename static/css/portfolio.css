@@ -258,33 +258,6 @@ body {
     transition: transform 0.3s ease;
 }
 
-/* Terminal Styles */
-.terminal-output {
-    height: 300px;
-    overflow-y: auto;
-}
-
-.blinking-cursor {
-    animation: blink 1s infinite;
-}
-
-@keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
-}
-
-.command:before {
-    content: "$ ";
-    color: #4F46E5;
-    font-weight: bold;
-}
-
-.prompt:before {
-    content: "visitor@portfolio:~$ ";
-    color: #10B981;
-    font-weight: bold;
-}
-
 /* Enhanced Select Dropdown Styles */
 .custom-select {
     position: relative;
@@ -678,6 +651,22 @@ body {
     z-index: 9999;
     transition: opacity 0.5s ease;
 }
+
+.preloader-content {
+    text-align: center;
+}
+
+.spinner {
+    width: 70px;
+    height: 70px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #3b82f6;
+    animation: spin 1s ease-in-out infinite;
+    margin: 0 auto 1rem;
+}
+
+
 
 .preloader-content {
     text-align: center;
