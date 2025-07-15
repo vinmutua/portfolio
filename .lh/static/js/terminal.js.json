@@ -3,11 +3,115 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 26,
             "patches": [
                 {
                     "date": 1752054560076,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1752577860668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n         about: [\r\n             \"[root@cyberterm]:$ User profile decrypted...\",\r\n             \"\",\r\n             \"> IDENT: ████████_SYSTEM_OPERATIVE\",\r\n-            \"> CODENAME: <span class='text-cyan-300'>NE0</span>\",\r\n+            \"> CODENAME: <span class='text-cyan-300'>Mutua</span>\",\r\n             \"> CLEARANCE: <span class='text-green-400'>LEVEL 5</span>\",\r\n             \"> SPECIALIZATION: <span class='text-yellow-300'>CYBER_SECURITY | FULL_STACK_DEV</span>\",\r\n             \"> LOCATION: ████████, ████████\",\r\n             \"\",\r\n"
+                },
+                {
+                    "date": 1752577866404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n         about: [\r\n             \"[root@cyberterm]:$ User profile decrypted...\",\r\n             \"\",\r\n             \"> IDENT: ████████_SYSTEM_OPERATIVE\",\r\n-            \"> CODENAME: <span class='text-cyan-300'>Mutua</span>\",\r\n+            \"> CODENAME: <span class='text-cyan-300'>Mu</span>\",\r\n             \"> CLEARANCE: <span class='text-green-400'>LEVEL 5</span>\",\r\n             \"> SPECIALIZATION: <span class='text-yellow-300'>CYBER_SECURITY | FULL_STACK_DEV</span>\",\r\n             \"> LOCATION: ████████, ████████\",\r\n             \"\",\r\n"
+                },
+                {
+                    "date": 1752577882154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,11 +53,11 @@\n         about: [\r\n             \"[root@cyberterm]:$ User profile decrypted...\",\r\n             \"\",\r\n             \"> IDENT: ████████_SYSTEM_OPERATIVE\",\r\n-            \"> CODENAME: <span class='text-cyan-300'>Mu</span>\",\r\n+            \"> CODENAME: <span class='text-cyan-300'>MuTuA</span>\",\r\n             \"> CLEARANCE: <span class='text-green-400'>LEVEL 5</span>\",\r\n-            \"> SPECIALIZATION: <span class='text-yellow-300'>CYBER_SECURITY | FULL_STACK_DEV</span>\",\r\n+            \"> SPECIALIZATION: <span class='text-yellow-300'>CYBER_SECURITY | FULL_STACK_DEV|</span>\",\r\n             \"> LOCATION: ████████, ████████\",\r\n             \"\",\r\n             \"[BIO]:\",\r\n             \"> 01010100 01110010 01100001 01101001 01101110 01100101 01100100 \",\r\n"
+                },
+                {
+                    "date": 1752577895278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n             \"\",\r\n             \"> IDENT: ████████_SYSTEM_OPERATIVE\",\r\n             \"> CODENAME: <span class='text-cyan-300'>MuTuA</span>\",\r\n             \"> CLEARANCE: <span class='text-green-400'>LEVEL 5</span>\",\r\n-            \"> SPECIALIZATION: <span class='text-yellow-300'>CYBER_SECURITY | FULL_STACK_DEV|</span>\",\r\n+            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BA</span>\",\r\n             \"> LOCATION: ████████, ████████\",\r\n             \"\",\r\n             \"[BIO]:\",\r\n             \"> 01010100 01110010 01100001 01101001 01101110 01100101 01100100 \",\r\n"
+                },
+                {
+                    "date": 1752577901609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n             \"\",\r\n             \"> IDENT: ████████_SYSTEM_OPERATIVE\",\r\n             \"> CODENAME: <span class='text-cyan-300'>MuTuA</span>\",\r\n             \"> CLEARANCE: <span class='text-green-400'>LEVEL 5</span>\",\r\n-            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BA</span>\",\r\n+            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BACKEND </span>\",\r\n             \"> LOCATION: ████████, ████████\",\r\n             \"\",\r\n             \"[BIO]:\",\r\n             \"> 01010100 01110010 01100001 01101001 01101110 01100101 01100100 \",\r\n"
+                },
+                {
+                    "date": 1752577906813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n             \"\",\r\n             \"> IDENT: ████████_SYSTEM_OPERATIVE\",\r\n             \"> CODENAME: <span class='text-cyan-300'>MuTuA</span>\",\r\n             \"> CLEARANCE: <span class='text-green-400'>LEVEL 5</span>\",\r\n-            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BACKEND </span>\",\r\n+            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BACKEND |</span>\",\r\n             \"> LOCATION: ████████, ████████\",\r\n             \"\",\r\n             \"[BIO]:\",\r\n             \"> 01010100 01110010 01100001 01101001 01101110 01100101 01100100 \",\r\n"
+                },
+                {
+                    "date": 1752577935306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n             \"\",\r\n             \"> IDENT: ████████_SYSTEM_OPERATIVE\",\r\n             \"> CODENAME: <span class='text-cyan-300'>MuTuA</span>\",\r\n             \"> CLEARANCE: <span class='text-green-400'>LEVEL 5</span>\",\r\n-            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BACKEND |</span>\",\r\n+            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BACKEND ENGIN|</span>\",\r\n             \"> LOCATION: ████████, ████████\",\r\n             \"\",\r\n             \"[BIO]:\",\r\n             \"> 01010100 01110010 01100001 01101001 01101110 01100101 01100100 \",\r\n"
+                },
+                {
+                    "date": 1752577953190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n             \"\",\r\n             \"> IDENT: ████████_SYSTEM_OPERATIVE\",\r\n             \"> CODENAME: <span class='text-cyan-300'>MuTuA</span>\",\r\n             \"> CLEARANCE: <span class='text-green-400'>LEVEL 5</span>\",\r\n-            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BACKEND ENGIN|</span>\",\r\n+            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BACKEND ENGINEER |</span>\",\r\n             \"> LOCATION: ████████, ████████\",\r\n             \"\",\r\n             \"[BIO]:\",\r\n             \"> 01010100 01110010 01100001 01101001 01101110 01100101 01100100 \",\r\n"
+                },
+                {
+                    "date": 1752577959615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n             \"\",\r\n             \"> IDENT: ████████_SYSTEM_OPERATIVE\",\r\n             \"> CODENAME: <span class='text-cyan-300'>MuTuA</span>\",\r\n             \"> CLEARANCE: <span class='text-green-400'>LEVEL 5</span>\",\r\n-            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BACKEND ENGINEER |</span>\",\r\n+            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BACKEND ENGINEER | SOFTWARE)</span>\",\r\n             \"> LOCATION: ████████, ████████\",\r\n             \"\",\r\n             \"[BIO]:\",\r\n             \"> 01010100 01110010 01100001 01101001 01101110 01100101 01100100 \",\r\n"
+                },
+                {
+                    "date": 1752577965427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n             \"\",\r\n             \"> IDENT: ████████_SYSTEM_OPERATIVE\",\r\n             \"> CODENAME: <span class='text-cyan-300'>MuTuA</span>\",\r\n             \"> CLEARANCE: <span class='text-green-400'>LEVEL 5</span>\",\r\n-            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BACKEND ENGINEER | SOFTWARE)</span>\",\r\n+            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BACKEND ENGINEER | SOFTWARE_DEV</span>\",\r\n             \"> LOCATION: ████████, ████████\",\r\n             \"\",\r\n             \"[BIO]:\",\r\n             \"> 01010100 01110010 01100001 01101001 01101110 01100101 01100100 \",\r\n"
+                },
+                {
+                    "date": 1752577971401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n             \"\",\r\n             \"> IDENT: ████████_SYSTEM_OPERATIVE\",\r\n             \"> CODENAME: <span class='text-cyan-300'>MuTuA</span>\",\r\n             \"> CLEARANCE: <span class='text-green-400'>LEVEL 5</span>\",\r\n-            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BACKEND ENGINEER | SOFTWARE_DEV</span>\",\r\n+            \"> SPECIALIZATION: <span class='text-yellow-300'> FULL_STACK_DEV| BACKEND_ENGINEER | SOFTWARE_DEV</span>\",\r\n             \"> LOCATION: ████████, ████████\",\r\n             \"\",\r\n             \"[BIO]:\",\r\n             \"> 01010100 01110010 01100001 01101001 01101110 01100101 01100100 \",\r\n"
+                },
+                {
+                    "date": 1752578167985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n             \"<span class='text-cyan-300'>[+] ACTIVE SKILLSET:</span>\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>LANGUAGES:</span>\",\r\n             \"   - JavaScript/TypeScript [██████████]\",\r\n-            \"   - Python [██████████]\",\r\n+            \"   - Python - Django [██████████]\",\r\n             \"   - C++/Java [██████]\",\r\n             \"   - Assembly [███]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>FRONTEND:</span>\",\r\n"
+                },
+                {
+                    "date": 1752578174734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n             \"\",\r\n             \">> <span class='text-green-400'>LANGUAGES:</span>\",\r\n             \"   - JavaScript/TypeScript [██████████]\",\r\n             \"   - Python - Django [██████████]\",\r\n-            \"   - C++/Java [██████]\",\r\n+            \"   - Java [██████]\",\r\n             \"   - Assembly [███]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>FRONTEND:</span>\",\r\n             \"   - React/Vue [████████]\",\r\n"
+                },
+                {
+                    "date": 1752578182531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n             \"\",\r\n             \">> <span class='text-green-400'>LANGUAGES:</span>\",\r\n             \"   - JavaScript/TypeScript [██████████]\",\r\n             \"   - Python - Django [██████████]\",\r\n-            \"   - Java [██████]\",\r\n+            \"   - Java -SPring BO[██████]\",\r\n             \"   - Assembly [███]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>FRONTEND:</span>\",\r\n             \"   - React/Vue [████████]\",\r\n"
+                },
+                {
+                    "date": 1752578196104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,10 +75,10 @@\n             \"\",\r\n             \">> <span class='text-green-400'>LANGUAGES:</span>\",\r\n             \"   - JavaScript/TypeScript [██████████]\",\r\n             \"   - Python - Django [██████████]\",\r\n-            \"   - Java -SPring BO[██████]\",\r\n-            \"   - Assembly [███]\",\r\n+            \"   - Java -SPring Boot[██████]\",\r\n+            \"   -  [███]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>FRONTEND:</span>\",\r\n             \"   - React/Vue [████████]\",\r\n             \"   - Three.js/WebGL [██████]\",\r\n"
+                },
+                {
+                    "date": 1752578206061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,10 +75,10 @@\n             \"\",\r\n             \">> <span class='text-green-400'>LANGUAGES:</span>\",\r\n             \"   - JavaScript/TypeScript [██████████]\",\r\n             \"   - Python - Django [██████████]\",\r\n-            \"   - Java -SPring Boot[██████]\",\r\n-            \"   -  [███]\",\r\n+            \"   - Java -String Boot[██████]\",\r\n+            \"   - FLutter [███]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>FRONTEND:</span>\",\r\n             \"   - React/Vue [████████]\",\r\n             \"   - Three.js/WebGL [██████]\",\r\n"
+                },
+                {
+                    "date": 1752578235378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,10 @@\n             \"\",\r\n             \">> <span class='text-green-400'>LANGUAGES:</span>\",\r\n             \"   - JavaScript/TypeScript [██████████]\",\r\n             \"   - Python - Django [██████████]\",\r\n-            \"   - Java -String Boot[██████]\",\r\n+            \"   - Java -Spring Boot[██████]\",\r\n+            \"   - Java -Spring Boot[██████]\",\r\n             \"   - FLutter [███]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>FRONTEND:</span>\",\r\n             \"   - React/Vue [████████]\",\r\n"
+                },
+                {
+                    "date": 1752578244830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,9 +76,9 @@\n             \">> <span class='text-green-400'>LANGUAGES:</span>\",\r\n             \"   - JavaScript/TypeScript [██████████]\",\r\n             \"   - Python - Django [██████████]\",\r\n             \"   - Java -Spring Boot[██████]\",\r\n-            \"   - Java -Spring Boot[██████]\",\r\n+            \"   - Java [██████]\",\r\n             \"   - FLutter [███]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>FRONTEND:</span>\",\r\n             \"   - React/Vue [████████]\",\r\n"
+                },
+                {
+                    "date": 1752578255317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,9 +76,9 @@\n             \">> <span class='text-green-400'>LANGUAGES:</span>\",\r\n             \"   - JavaScript/TypeScript [██████████]\",\r\n             \"   - Python - Django [██████████]\",\r\n             \"   - Java -Spring Boot[██████]\",\r\n-            \"   - Java [██████]\",\r\n+            \"   - Node js -T[██████]\",\r\n             \"   - FLutter [███]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>FRONTEND:</span>\",\r\n             \"   - React/Vue [████████]\",\r\n"
+                },
+                {
+                    "date": 1752578393573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,9 +76,8 @@\n             \">> <span class='text-green-400'>LANGUAGES:</span>\",\r\n             \"   - JavaScript/TypeScript [██████████]\",\r\n             \"   - Python - Django [██████████]\",\r\n             \"   - Java -Spring Boot[██████]\",\r\n-            \"   - Node js -T[██████]\",\r\n             \"   - FLutter [███]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>FRONTEND:</span>\",\r\n             \"   - React/Vue [████████]\",\r\n"
+                },
+                {
+                    "date": 1752578422475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,9 +79,9 @@\n             \"   - Java -Spring Boot[██████]\",\r\n             \"   - FLutter [███]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>FRONTEND:</span>\",\r\n-            \"   - React/Vue [████████]\",\r\n+            \"   - Reac [████████]\",\r\n             \"   - Three.js/WebGL [██████]\",\r\n             \"   - WebAssembly [████]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>BACKEND:</span>\",\r\n"
+                },
+                {
+                    "date": 1752578432723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,10 +79,10 @@\n             \"   - Java -Spring Boot[██████]\",\r\n             \"   - FLutter [███]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>FRONTEND:</span>\",\r\n-            \"   - Reac [████████]\",\r\n-            \"   - Three.js/WebGL [██████]\",\r\n+            \"   - React [████████]\",\r\n+            \"   - Angular [██████]\",\r\n             \"   - WebAssembly [████]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>BACKEND:</span>\",\r\n             \"   - Node.js/Deno [█████████]\",\r\n"
+                },
+                {
+                    "date": 1752578457496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n             \"\",\r\n             \">> <span class='text-green-400'>FRONTEND:</span>\",\r\n             \"   - React [████████]\",\r\n             \"   - Angular [██████]\",\r\n-            \"   - WebAssembly [████]\",\r\n+            \"   -  [████]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>BACKEND:</span>\",\r\n             \"   - Node.js/Deno [█████████]\",\r\n             \"   - Rust/Go [██████]\",\r\n"
+                },
+                {
+                    "date": 1752578468366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n             \"\",\r\n             \">> <span class='text-green-400'>FRONTEND:</span>\",\r\n             \"   - React [████████]\",\r\n             \"   - Angular [██████]\",\r\n-            \"   -  [████]\",\r\n+            \"   - Tailwind Css [████]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>BACKEND:</span>\",\r\n             \"   - Node.js/Deno [█████████]\",\r\n             \"   - Rust/Go [██████]\",\r\n"
+                },
+                {
+                    "date": 1752578475344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,9 @@\n             \"   - FLutter [███]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>FRONTEND:</span>\",\r\n             \"   - React [████████]\",\r\n-            \r\n+            \"   - React [████████]\",\r\n             \"   - Angular [██████]\",\r\n             \"   - Tailwind Css [████]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>BACKEND:</span>\",\r\n"
+                },
+                {
+                    "date": 1752578503613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n             \"   - Angular [██████]\",\r\n             \"   - Tailwind Css [████]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>BACKEND:</span>\",\r\n-            \"   - Node.js/ [█████████]\",\r\n+            \"   - Node.js/TY [█████████]\",\r\n             \"   - Rust/Go [██████]\",\r\n             \"\",\r\n             \">> <span class='text-green-400'>CYBER:</span>\",\r\n             \"   - Penetration Testing [████████]\",\r\n"
                 }
             ],
             "date": 1752054560076,
