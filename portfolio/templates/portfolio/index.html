@@ -4,15 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title|default:"MUSYOKI MUTUA | Software Engineer" }}</title>
-    <meta name="description" content="{{ description|default:'Innovative Software Engineer specializing in AI-powered healthcare solutions' }}">
+    <title>{{ title|default:"Vincent Musyoki Mutua | Software Engineer Portfolio - Full-Stack Developer" }}</title>
+    <meta name="description" content="{{ description|default:'Vincent Musyoki Mutua - Innovative Software Engineer specializing in full-stack development, AI solutions, and data visualization. Available for hire.' }}">
+    
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="smNf94kd7RFLu8lLktvCEPbTbajbCf3jQzt_9NCt5_4" />
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="software engineer, full-stack developer, python, django, react, angular, AI solutions, data visualization, portfolio, Vincent Musyoki Mutua">
+    <meta name="author" content="Vincent Musyoki Mutua">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Vincent Musyoki Mutua | Software Engineer Portfolio">
+    <meta property="og:description" content="Innovative Software Engineer specializing in full-stack development, AI solutions, and data visualization. View my projects and hire me.">
+    <meta property="og:image" content="https://portfolio-amdj.onrender.com{% static 'images/portfolio-preview.jpg' %}">
+    <meta property="og:url" content="https://portfolio-amdj.onrender.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vincent Musyoki Mutua | Software Engineer">
+    <meta name="twitter:description" content="Innovative Software Engineer specializing in full-stack development and AI solutions">
+    <meta name="twitter:image" content="https://portfolio-amdj.onrender.com{% static 'images/portfolio-preview.jpg' %}">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://portfolio-amdj.onrender.com">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Vincent Musyoki Mutua",
+      "jobTitle": "Software Engineer",
+      "description": "Innovative Software Engineer specializing in full-stack development, AI solutions, and data visualization",
+      "url": "https://portfolio-amdj.onrender.com",
+      "sameAs": [
+        "https://github.com/vinmutua",
+        "https://linkedin.com/in/vincent-musyoki-9aa088243"
+      ],
+      "knowsAbout": [
+        "Software Development",
+        "Full-Stack Development",
+        "Python",
+        "Django",
+        "React",
+        "Angular",
+        "AI Solutions",
+        "Data Visualization"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Kenya"
+      }
+    }
+    </script>
+    
+    <!-- ...existing scripts and stylesheets... -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"></script>
     <link rel="stylesheet" href="{% static 'css/portfolio.css' %}">
     <link rel="stylesheet" href="{% static 'css/terminal.css' %}">
-
 </head>
 <body class="min-h-screen">
     <!-- Interactive Background -->
