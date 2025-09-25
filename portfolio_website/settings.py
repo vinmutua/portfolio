@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 from pathlib import Path
 import os
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -22,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-mt1e2%&acb#zh@4vfx1*&k$_+t5cguo=%*bf-h&c@zw5tec_uc')
-DEBUG = os.environ.get('DJANGO_DEBUG', 'True') == 'True'
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
+SECRET_KEY = config('DJANGO_SECRET_KEY', default='django-insecure-mt1e2%&acb#zh@4vfx1*&k$_+t5cguo=%*bf-h&c@zw5tec_uc')
+DEBUG = config('DJANGO_DEBUG', default=True, cast=bool)
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.1').split(',')
 
 
 # Application definition
@@ -126,3 +127,8 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Brevo Email Configuration
+BREVO_API_KEY = config('BREVO_API_KEY', default='your-brevo-api-key-here')
+BREVO_SENDER_EMAIL = config('BREVO_SENDER_EMAIL', default='vinniebrevo@gmail.com')
+BREVO_RECIPIENT_EMAIL = config('BREVO_RECIPIENT_EMAIL', default='musyokivincent07@gmail.com')
