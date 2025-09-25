@@ -44,6 +44,7 @@ python-crontab==3.2.0
 python-dateutil==2.9.0.post0
 python-decouple==3.8
 python-json-logger==3.3.0
+sib-api-v3-sdk==7.6.0
 pytz==2025.2
 
 PyYAML==6.0.2
