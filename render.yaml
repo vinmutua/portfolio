@@ -14,3 +14,9 @@ services:
         value: false
       - key: ALLOWED_HOSTS
         value: .onrender.com
+      - key: BREVO_API_KEY
+        sync: false
+      - key: BREVO_SENDER_EMAIL
+        value: vinniebrevo@gmail.com
+      - key: BREVO_RECIPIENT_EMAIL
+        sync: false
