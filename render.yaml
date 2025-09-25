@@ -2,7 +2,10 @@ services:
   - type: web
     name: portfolio-website
     env: python
-    buildCommand: ./build.sh
+    buildCommand: |
+      pip install -r requirements.txt
+      python manage.py migrate --noinput
+      python manage.py collectstatic --noinput
     startCommand: gunicorn portfolio_website.wsgi:application
     envVars:
       - key: DJANGO_SECRET_KEY
@@ -11,7 +14,3 @@ services:
         value: false
       - key: ALLOWED_HOSTS
         value: .onrender.com
-build:
-  commands:
-    - pip install -r requirements.txt
-    - python manage.py collectstatic --noinput
